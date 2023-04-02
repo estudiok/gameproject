@@ -1,0 +1,22 @@
+<p-card>
+    <div class="grid">
+        <div class="col-12">
+            <h2 class="text-center">onDemand - Online</h2>
+        </div>
+        <div class="col-12">
+            <button pButton label="Crear juego" class="p-button-success p-button-sm lg:w-auto w-full"></button>
+        </div>
+        <div class="col-12">
+            <p>Busqueda por:</p>
+        </div>
+        <div class="col-12 field">
+            <label for="status">Estado</label>
+            <p-dropdown styleClass="w-full" [options]="cities" [(ngModel)]="selectedCity" optionLabel="name"></p-dropdown>
+        </div>
+        <div class=" col-12 field">
+            <label for="category">Categoria</label>
+            <p-dropdown styleClass="w-full" [options]="cities" [(ngModel)]="selectedCity" optionLabel="name"></p-dropdown>
+        </div>
+    </div>
+
+</p-card>
